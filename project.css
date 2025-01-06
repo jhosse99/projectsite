@@ -1,0 +1,72 @@
+body{
+  background-image: url('numeros.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h1{
+  text-align: center;
+  font-family: verdana;
+  color: #3066BE;
+  background-color: #AEECEF;
+}
+nav {
+    background-color: #AEECEF;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block; /
+}
+
+.menu li a {
+    display: block; /
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #80DED9;
+}
+main{
+  margin: 20px auto;
+  width: 90%
+  display: flex;
+}
+section{
+  color: black;
+  background-color: #6D9DC5;
+}
+section h2{
+  font-size: 36px;
+  color: #3066BE;
+}
+section h4{
+  font-size: 20px;
+  color: #AEECEF;
+  text-align: justify;
+}
+footer{
+  width: 100%
+  margin-top: 20px;
+  height: 100px;
+  background-color: #119DA4;
+}
+footer h5{
+  padding: 25px;
+  text-align: left;
+}
+img{
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 350px;
+  border: 5px solid #80DED9;
+}
